@@ -15,6 +15,6 @@ COPY . .
 
 EXPOSE 8096
 
-RUN chmod -x *.sh
+RUN chmod +x *.sh
 
 CMD [ "node", "server.js" ]
