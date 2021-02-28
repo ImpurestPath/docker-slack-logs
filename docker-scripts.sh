@@ -8,7 +8,7 @@ fi
 case $1 in 
 
 "logs" ) 
-docker service logs $2
+docker service logs $2 2>&1| tail -n 200
 ;;
 
 "status" )
