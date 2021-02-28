@@ -1,0 +1,13 @@
+{
+  "name": "docker-slack-logs",
+  "version": "1.0.0",
+  "description": "bot for sending logs to slack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^15.8.0"
+  }
+}
